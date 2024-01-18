@@ -2,9 +2,9 @@
 
 ### Requirements
 
-1. Create in the Windows Credential Manager, a credential with:
+1. Create in the Windows Credential Manager, a `generic credential` with:
     <br/>`Internet or network address` = `HomeAssistant`;
-    <br/>`User name` = \<your server url\>;
+    <br/>`User name` = \<your server url\>; (example `https://hass.some.url/`)
     <br/>`Password` = \<Long-Lived Access Tokens\>
 2. Compile the script `HomeAssistantToggle.ahk` to exe
 
